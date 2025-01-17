@@ -1,0 +1,144 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar Styling */
+.navbar-dark .navbar-brand, 
+.navbar-dark .nav-link {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #f1c40f;
+}
+
+/* Adjustments for Sticky Navbar */
+main {
+    margin-top: 75px; /* Adjust for the height of the navbar */
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 100vh;
+    background: url('/img/Background.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for contrast */
+    z-index: 1;
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-section .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 25px;
+}
+
+/* Mission and Vision Section Images */
+#mission img, #vision img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Section Headings */
+h2 {
+    font-weight: bold;
+    color: #2a4d69;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Call-to-Action Section */
+#cta {
+    background: #222; /* Replace with background image if needed */
+    color: white;
+    padding: 3rem 1rem;
+}
+
+#cta h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#cta .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 25px;
+}
+
+/* Services Section */
+#services h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2a4d69;
+}
+
+#services p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Carousel Control Styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #2a4d69;
+    border-radius: 50%;
+    width: 40px;
+    height: 80px;
+}
+
+/* Carousel Item Images */
+.carousel-item img {
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for better readability */
+    padding: 1rem;
+    border-radius: 8px;
+}

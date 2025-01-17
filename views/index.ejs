@@ -1,0 +1,125 @@
+<%- include('./partials/header') %>
+
+<main class="container my-5">
+
+   
+    <!-- Mission Section -->
+    <section id="mission" class="row align-items-center mb-5">
+        <div class="col-md-6 text-center">
+            <img src="/img/mission.jpg" alt="Our Mission" class="img-fluid rounded">
+        </div>
+        
+        <div class="col-md-6">
+            <h2>Our Mission</h2>
+            <p class="fs-2">
+                To understand the unique needs of each client and offer the most comprehensive specialized service and
+                expertise by utilizing our highly motivated, skilled, and committed professionals to drive our partners'
+                overall performance, improving processes, and increasing capacity for growth and development.
+            </p>
+        </div>
+        
+    </section>
+
+    <!-- Vision Section -->
+    <section id="vision" class="row align-items-center mb-5">
+        <div class="col-md-6 text-center order-md-2">
+            <img src="/img/Vision.jpg" alt="Our Vision" class="img-fluid rounded">
+        </div>
+        <div class="col-md-6 order-md-1">
+            <h2>Our Vision</h2>
+            <p class="fs-2">
+                To be recognized as a leading growth mosaic organization providing consultancy and specialized support
+                and services to our partners while becoming an integral part of their company. We aim to be the partner
+                of choice for organizations seeking efficiencies and growth.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Services</h2>
+            <div id="servicesCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active" style="height: 40vh;">
+                        <div class="position-relative h-100">
+                            <img src="/img/Business_advisory.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Business Advisory">
+                            <div class="carousel-caption d-flex align-items-center justify-content-center h-100">
+                                <div class="text-white text-center">
+                                    <h5>01 - Business Growth Advisory Services</h5>
+                                    <p>Personalized strategies to optimize your financial future.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="carousel-item" style="height: 40vh;">
+                        <div class="position-relative h-100">
+                            <img src="/img/Branding.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Branding and Marketing Strategy">
+                            <div class="carousel-caption d-flex align-items-center justify-content-center h-100">
+                                <div class="text-white text-center">
+                                    <h5>02 - Branding and Marketing Strategy</h5>
+                                    <p>Solutions designed to meet your goals and risk tolerance.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="carousel-item" style="height: 40vh;">
+                        <div class="position-relative h-100">
+                            <img src="/img/Business_Awareness.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Business Promotion and Awareness Creation">
+                            <div class="carousel-caption d-flex align-items-center justify-content-center h-100">
+                                <div class="text-white text-center">
+                                    <h5>03 - Business Promotion and Awareness Creation</h5>
+                                    <p>Streamlined accounting and tax management services.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="carousel-item" style="height: 40vh;">
+                        <div class="position-relative h-100">
+                            <img src="/img/FDI.webp" class="d-block w-100 h-100 object-fit-cover" alt="Foreign Direct Investment and International Business Expansion">
+                            <div class="carousel-caption d-flex align-items-center justify-content-center h-100">
+                                <div class="text-white text-center">
+                                    <h5>04 - Foreign Direct Investment and International Business Expansion</h5>
+                                    <p>Comprehensive solutions to protect your assets and future.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#servicesCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#servicesCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section id="cta" class="text-center text-white py-5" style="background: #333;">
+        <h2>Open your account today and experience the future of finance!</h2>
+        <a href="#contact" class="btn btn-outline-light mt-3">Open Account</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container py-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <address class="text-center">
+            <strong>Address:</strong> Daadom B1, Saka Home Development, Accra, Ghana<br>
+            <strong>Email:</strong> <a href="mailto:executive@heritagetriage.com">executive@heritagetriage.com</a><br>
+            <strong>Phone:</strong> +1 4257 611 874, +233 554 082 352, +233 593 854 189
+        </address>
+    </section>
+</main>
+
+<%- include('./partials/footer') %>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
