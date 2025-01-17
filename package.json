@@ -1,8 +1,8 @@
 {
-  "name": "y",
+  "name": "heritage-triage",
   "version": "1.0.0",
-  "description": "Heritage Triage LLC ",
-  "main": "app.js",
+  "description": "Heritage Triage LLC",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,6 @@
     "bootstrap": "^5.3.3",
     "ejs": "^3.1.10",
     "express": "^4.21.2",
-    "node": "^23.5.0",
     "nodemon": "^3.1.9"
   }
 }
